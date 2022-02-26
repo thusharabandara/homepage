@@ -1,0 +1,177 @@
+/* Begins: General */
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin-top: 50px;
+    background: url(../images/background.jpg);
+    font-size: 13.5px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    color: #4169E1;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: -8px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #4f4f4f;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+/* Ends: General */
+
+/* Begins: Navigationbar  */
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color: #F0F0F0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    color: #4f4f4f;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: -1px;
+}
+
+.nav-link {
+    font-size: 13px;
+    color: #7f7f7f;
+    margin-top: 1px;
+}
+
+/* Ends: Navigationbar  */
+
+/* Begins: Main Container */
+.container-main {
+    z-index: 1;
+}
+
+/* Ends: Main Container */
+
+/* Begins: Sidebar */
+.sidebar {
+    height: 100%;
+    font-size: 14px;
+    letter-spacing: +0.1px;
+}
+
+.profile-photo {
+    margin-top: 5%;
+    margin-left: 34%;
+}
+
+.designation {
+    margin-top: 5%;
+    margin-left: 16%;
+    margin-right: 10%;
+}
+
+.workplace {
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+.tel {
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+.residence {
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+.email {
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+.social-container {
+    margin-top: 8%;
+    margin-left: 16%;
+}
+
+.social {
+    padding-right: 6%;
+}
+
+.sidebar-bottom-line {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 25px;
+}
+
+/* Ends: Sidebar */
+
+/* Begins: About section */
+.main {
+    border-left: 1px solid #F0F0F0;
+}
+
+#about {
+    margin-top: 22px;
+}
+
+.highlights-container {
+    font-size: 13px;
+}
+
+.highlight {
+    text-indent: -4.5em;
+    margin-left: 4.5em;
+    margin-bottom: 6px;
+    line-height: 18px;
+}
+
+.highlight-start {
+    font-weight: 300;
+}
+
+/* Ends: About section */
+
+/* Begins: Activities section */
+.activity-item {
+    margin-bottom: 6px;
+}
+
+.activity-period {
+    font-weight: 300;
+    letter-spacing: +0.2px;
+}
+
+/* Ends: Activities section */
+
+/* Begins: Teaching section */
+.courses {
+    margin-bottom: 10px;
+}
+
+.responsibility {
+    font-weight: 300;
+    letter-spacing: +0.2px;
+}
+
+/* Ends: Teaching section */
+
+/* Begins: Last updated */
+#last-updated {
+    color: #aaa;
+}
+/* Ends: Last updated */
