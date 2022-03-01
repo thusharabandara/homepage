@@ -10,6 +10,16 @@
     <link rel="icon" href="img/favicon.ico">
     <title>Thushara Bandara's Homepage</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154513525-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154513525-1');
+    </script>
+
     <!-- Bootstrap CSS Core: Latest version of bootstrap 4.3.1 (accessed: Feb 12, 2022) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -37,11 +47,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeAbout();" id="#about">About <span class="sr-only">(current)</span></a>
+                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeAbout();" id="#about">About <span
+                            class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeResearch();" id="#research">Research</a></li>
-                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeActivities();" id="#activities">Activities</a></li>
-                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeTeaching();" id="#teaching">Teaching</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeResearch();"
+                        id="#research">Research</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeActivities();"
+                        id="#activities">Activities</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:urlChangeTeaching();"
+                        id="#teaching">Teaching</a></li>
                 <li class="nav-item"><a class="nav-link disabled" href="#resume">Resume</a></li>
             </ul>
         </div>
@@ -80,8 +94,8 @@
                             src="img/orcid.png" width="30" height="30"></img></a>
                     <a class="social" href="https://www.linkedin.com/in/thusharabandara/" target="_blank"><img
                             src="img/linkedin.png" width="30" height="30"></img></a>
-                    <a class="social" href="https://twitter.com/thushara_rb" target="_blank"><img
-                            src="img/twitter.png" width="30" height="30"></img></a>
+                    <a class="social" href="https://twitter.com/thushara_rb" target="_blank"><img src="img/twitter.png"
+                            width="30" height="30"></img></a>
                     <a class="social" href="https://medium.com/@thusharabandara" target="_blank"><img
                             src="img/medium.png" width="30" height="30"></img></a>
                 </div>
@@ -148,7 +162,8 @@
                     <ol id="publications" class="list-group list-group-striped">
                         <li class="list-group-item">
                             P. Abeysinghe and <b>T. Bandara </b><br><b>A novel self-learning approach to overcome
-                                incompatibility on TripAdvisor reviews</b>,<br>In <i>Data Science and Management </i>(accepted)
+                                incompatibility on TripAdvisor reviews</b>,<br>In <i>Data Science and Management
+                            </i>(accepted)
                         </li>
                         <li class="list-group-item">
                             <b>G.G.H.M.T.R. Bandara</b> and R. Siyambalapitiya<br><b>Deep Autoencoder-Based Image
@@ -370,10 +385,10 @@
             var header_offset = 55;
             var element_position = element.getBoundingClientRect().top;
             var offset_position = element_position + window.pageYOffset - header_offset;
-          
+
             window.scrollTo({
-                 top: offset_position,
-                 behavior: "smooth"
+                top: offset_position,
+                behavior: "smooth"
             });
             // Change url
             window.history.pushState("object or string", "Title", "/about");
@@ -385,10 +400,10 @@
             var header_offset = 55;
             var element_position = element.getBoundingClientRect().top;
             var offset_position = element_position + window.pageYOffset - header_offset;
-          
+
             window.scrollTo({
-                 top: offset_position,
-                 behavior: "smooth"
+                top: offset_position,
+                behavior: "smooth"
             });
             // Change url
             window.history.pushState("object or string", "Title", "/research");
@@ -400,10 +415,10 @@
             var header_offset = 55;
             var element_position = element.getBoundingClientRect().top;
             var offset_position = element_position + window.pageYOffset - header_offset;
-          
+
             window.scrollTo({
-                 top: offset_position,
-                 behavior: "smooth"
+                top: offset_position,
+                behavior: "smooth"
             });
             // Change url
             window.history.pushState("object or string", "Title", "/activities");
@@ -415,16 +430,16 @@
             var header_offset = 55;
             var element_position = element.getBoundingClientRect().top;
             var offset_position = element_position + window.pageYOffset - header_offset;
-          
+
             window.scrollTo({
-                 top: offset_position,
-                 behavior: "smooth"
+                top: offset_position,
+                behavior: "smooth"
             });
             // Change url
             window.history.pushState("object or string", "Title", "/teaching");
         }
     </script>
-    
+
     <script>
         var x = new Date(document.lastModified);
         var date = 'Last updated on ' + x.getFullYear() + '/' + (x.getMonth() + 1) + '/' + x.getDate();
