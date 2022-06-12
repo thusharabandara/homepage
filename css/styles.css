@@ -77,20 +77,15 @@ h4 {
     margin-left: 34%;
 }
 
-.designation {
+.name {
     margin-top: 5%;
     margin-left: 16%;
     margin-right: 10%;
 }
 
-.workplace {
-    margin-top: 2%;
+.designation, .workplace {
     margin-left: 16%;
-}
-
-.tel {
-    margin-top: 2%;
-    margin-left: 16%;
+    margin-right: 10%;
 }
 
 .residence {
