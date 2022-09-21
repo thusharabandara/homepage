@@ -128,15 +128,13 @@ h4 {
     font-size: 13px;
 }
 
-.highlight {
-    text-indent: -4.5em;
-    margin-left: 4.5em;
-    margin-bottom: 6px;
-    line-height: 18px;
-}
+/* .highlight {
+} */
 
-.highlight-start {
+.highlight-period {
     font-weight: 300;
+    width: 109px;
+    text-align: left;
 }
 
 /* Ends: About section */
