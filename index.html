@@ -518,7 +518,8 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
             // Change url
-            window.history.pushState("object or string", "Title", "/");
+            //window.history.pushState("object or string", "Title", "/");
+            window.history.replaceState(null, null, "/");
         }
 
         // Scroll to the about section
@@ -533,7 +534,8 @@
                 behavior: "smooth"
             });
             // Change url
-            window.history.pushState("object or string", "Title", "/about");
+            //window.history.pushState("object or string", "Title", "/about");
+            window.history.replaceState(null, null, "/about");
         }
 
         // Scroll to the research section
@@ -548,7 +550,8 @@
                 behavior: "smooth"
             });
             // Change url
-            window.history.pushState("object or string", "Title", "/research");
+            //window.history.pushState("object or string", "Title", "/research");
+            window.history.replaceState(null, null, "/research");
         }
 
         // Scroll to the activites section
@@ -563,7 +566,8 @@
                 behavior: "smooth"
             });
             // Change url
-            window.history.pushState("object or string", "Title", "/activities");
+            //window.history.pushState("object or string", "Title", "/activities");
+            window.history.replaceState(null, null, "/activities");
         }
 
         // Scroll to the teaching section
@@ -578,7 +582,8 @@
                 behavior: "smooth"
             });
             // Change url
-            window.history.pushState("object or string", "Title", "/teaching");
+            //window.history.pushState("object or string", "Title", "/teaching");
+            window.history.replaceState(null, null, "/teaching");
         }
     </script>
 
